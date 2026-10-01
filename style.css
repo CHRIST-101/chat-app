@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'inter', sans-serif;
+}
+body{
+    height: 100vh;
+    position: relative;
+    background-color: #F5F3F8;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.outer-phone{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #FFFFFF;
+    width: 30%;
+    border-radius: 30px;
+    padding: 16px;
+    background-color: #FFFFFF;
+    box-shadow: 0 12px 30px rgba(143, 119, 119, 0.12);
+    position: relative;
+    
+}
+.inner-phone{
+    background-color: #F5F3F8;
+    width: 100%;
+    padding-top: 0px;
+    border-radius: 30px;
+}
+.header-div{
+    width: 55%;
+    margin: auto;
+    padding: 29px;
+    border-top: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 23%;
+    top: 0;
+}
+.inner-phone .top-border{
+    display: flex;
+    align-items: center;
+   
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 40px;
+    background: linear-gradient(
+    90deg,
+    #B73DFB 0%,
+    #D142FF 50%,
+    #DD49FF 100%
+);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+.inner-phone .top-border .text-div{
+    color: hsl(206, 6%, 79%);
+    line-height: 30px;
+    margin-top: 20px;
+}
+.inner-phone .top-border .text-div h2{
+    color: #fff;
+}
+.img-div{
+    width: 20%;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.img-div img{
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+/* chatBox start */
+.chatbox {
+    background-color: #EDE5F4;
+    color: #8E6FA3;
+    width: 65%;
+    padding: 13px;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    transition: all 0.2s ease;
+
+}
+.chatbox:hover{
+    transform: translateY(.20px);
+    color: #000;
+    
+}
+
+.right-side .dog-pic{
+    width: 17%;
+    display: flex;
+    margin-left: 140px;
+    margin-top: 20px;
+    
+}
+.right-side .dog-pic img{
+    width: 100%;
+    border-radius: 30%;
+    margin-left: 10px;
+}
+.three{
+    margin-left: 135px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    width: 60%;
+    background-color: #FFFFFF;
+    color: #76737C;
+    box-shadow: 0 1px 3px rgba(1, 1, 1, 0.09);
+}
+.four{
+    margin-left: 207px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    width: 40%;
+    color: #76737C;
+    background-color: #FFFFFF;
+}
+.six{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background: linear-gradient(
+    90deg,
+    #B73DFB 0%,
+    #D142FF 50%,
+    #DD49FF 100%
+);
+    box-shadow: 0 6px 16px rgba(138, 43, 226, 0.25);
+    color: #FFFFFF;
+}
+.seven{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    background: linear-gradient(
+    90deg,
+    #B73DFB 0%,
+    #D142FF 50%,
+    #DD49FF 100%
+);
+    box-shadow: 0 6px 16px rgba(138, 43, 226, 0.25);
+    color: #FFFFFF;
+}
+.last-checkbox{
+  /*   margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    width: 95%;
+    padding: 20px; */
+   /*  background-color: #FFFFFF;
+    border: 1px solid #FFFFFF; */
+    position: relative;
+}
+.last-checkbox textarea{
+     margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    width: 86%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF; 
+    outline: none; 
+}
+.fa-solid {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+   /*  font-size: 30px; */
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    
+    border-radius: 50px;
+    padding: 20px;
+}
+/* chatBox end */
+
+
+  /* Simple booking start  */
+section{
+    padding: 20px;
+    margin-top: 20px;
+    width: 50%;
+    /* position: absolute;
+    top: 60px;
+    left: 50%; */
+}
+nav{
+    color: hsl(271, 36%, 24%);
+}
+.para-div{
+    margin-top: 20px;
+    line-height: 25px;
+     color: #8E6FA3;
+}
+
+/* Javascript styling */
+.sent-message .chatbox{
+    margin-left: 135px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 0px;
+    width: 60%;
+    background-color: #FFFFFF;
+    color: #76737C;
+    box-shadow: 0 1px 3px rgba(1, 1, 1, 0.09);
+    transition: all 0.2s ease;
+}
+.sent-message .chatbox:hover{
+     transform: translateY(.20px);
+    color: #000;
+}
